@@ -31,5 +31,41 @@
   "Role": {
     "dataSource": "db",
     "public": false
+  },
+  "Customer": {
+    "dataSource": "db",
+    "public": true
+  },
+  "Order": {
+    "dataSource": "db",
+    "public": true
+  },
+  "Account": {
+    "dataSource": "db",
+    "public": false
+  },
+  "Address": {
+    "dataSource": "transient",
+    "public": false
+  },
+  "Author": {
+    "dataSource": "db",
+    "public": false
+  },
+  "Book": {
+    "dataSource": "db",
+    "public": true
+  },
+  "EmailAddress": {
+    "dataSource": "transient",
+    "public": false
+  },
+  "Link": {
+    "dataSource": "transient",
+    "public": false
+  },
+  "Reader": {
+    "dataSource": "db",
+    "public": false
   }
 }
